@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import List from "./pages/List";
 
 function App() {
   return (
     <div className="App">
-      low code
+        <h1>问卷</h1>
+        <List></List>
     </div>
   );
 }
